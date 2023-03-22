@@ -1,0 +1,66 @@
+ *{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+ }
+ .container{
+  display: flex;
+ }
+main{
+  width: 100%;
+  padding: 20px;
+}
+.sidebar{
+  background: #F2F2F2;
+  color: #707173;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo{
+  font-size: 25px;
+  color: #1790e0;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+}
+.link{
+  display: flex; 
+  color: #707173;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s ;
+}
+.link:hover{
+  background: #79bce9;
+  color: #1790e0;
+  transition: all 0.5s;
+}
+.active{
+  background: #79bce9;
+  color: #1790e0;
+}
+.datatable{
+  float:left;
+  margin-right:20px;
+}
+.breadcrum{
+  color: #707173;
+}
+.offer{
+  color: black;
+  font-weight: 300px;
+}
+tr, th {
+  text-align: left;
+}
+.btn{
+  background-color: none;
+  text-decoration: none;
+}
